@@ -1,0 +1,13 @@
+[project]
+name = "testwhatsapp"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "dotenv>=0.9.9",
+    "fastapi>=0.141.1",
+    "groq>=1.7.0",
+    "langchain>=1.4.0",
+    "langgraph>=1.2.11",
+]
