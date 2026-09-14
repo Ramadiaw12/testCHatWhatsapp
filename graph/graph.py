@@ -7,9 +7,9 @@ from typing import TypedDict, List, Literal, List, Sequence, Annotated
 class ChatState(TypedDict):
     message: str
     user_id:int
-    conversation_id:id
+    conversation_id:int
     context:str
-    retrivied_document:str
+    retrivied_document:List[str]
     tool_result: str
 
 
@@ -19,6 +19,6 @@ def user_analyse(state:ChatState) -> ChatState:
     """  """
     messages=state['context']
     result=state['tool_result']
-    
+
 
 
