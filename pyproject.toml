@@ -10,4 +10,5 @@ dependencies = [
     "groq>=1.7.0",
     "langchain>=1.4.0",
     "langgraph>=1.2.11",
+    "pypdf>=6.19.0",
 ]
